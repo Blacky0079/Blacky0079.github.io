@@ -4,9 +4,99 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Happy Cart</title>
+    <link href="./css/main.css" rel="stylesheet" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    hello,
+    <header>
+      <div class="nav container">
+        <a href="#" class="logo">Farmer Dump</a>
+        <i class="bx bx-shopping-bag" id="cart-icon"></i>
+        <!--cart-->
+        <div class="cart">
+          <h2 class="cart-title">Your Cart</h2>
+          <!--content-->
+          <div class="cart-content"></div>
+
+          <!--Total-->
+          <div class="total">
+            <div class="total-title">Total</div>
+            <div class="total-price">NT.0</div>
+          </div>
+          <!--Buy button-->
+          <button type="button" class="btn-buy">Buy Now</button>
+          <!--Cart Close-->
+          <i class="bx bx-x" id="close-cart"></i>
+        </div>
+      </div>
+    </header>
+    <section class="shop container">
+      <h2 class="section-title">Goin To Eat</h2>
+      <!--content-->
+      <div class="shop-content">
+        <!--Box 1-->
+        <div class="product-box">
+          <img src="img/imggg00001.jpg" alt="" class="product-img" />
+          <h2 class="product-title">雞趴軟骨</h2>
+          <span class="price">NT.250</span>
+          <i class="bx bx-shopping-bag add-cart"></i>
+        </div>
+        <!--Box 2-->
+        <div class="product-box">
+          <img src="img/imggg00002.jpg" alt="" class="product-img" />
+          <h2 class="product-title">別愛我沒櫛瓜</h2>
+          <span class="price">NT.350</span>
+          <i class="bx bx-shopping-bag add-cart"></i>
+        </div>
+        <!--Box 3-->
+        <div class="product-box">
+          <img src="img/imggg00003.jpg" alt="" class="product-img" />
+          <h2 class="product-title">豬大大腸</h2>
+          <span class="price">NT.127</span>
+          <i class="bx bx-shopping-bag add-cart"></i>
+        </div>
+        <!--Box 4-->
+        <div class="product-box">
+          <img src="img/imggg00004.jpg" alt="" class="product-img" />
+          <h2 class="product-title">來去蔥蔥</h2>
+          <span class="price">NT.450</span>
+          <i class="bx bx-shopping-bag add-cart"></i>
+        </div>
+        <!--Box 5-->
+        <div class="product-box">
+          <img src="img/imggg00005.jpg" alt="" class="product-img" />
+          <h2 class="product-title">剩女小番茄</h2>
+          <span class="price">NT.200</span>
+          <i class="bx bx-shopping-bag add-cart"></i>
+        </div>
+        <!--Box 6-->
+        <div class="product-box">
+          <img src="img/imggg00006.jpg" alt="" class="product-img" />
+          <h2 class="product-title">豬小小腸</h2>
+          <span class="price">NT.225</span>
+          <i class="bx bx-shopping-bag add-cart"></i>
+        </div>
+        <!--Box 7-->
+        <div class="product-box">
+          <img src="img/imggg00007.jpg" alt="" class="product-img" />
+          <h2 class="product-title">雞翹屁股</h2>
+          <span class="price">NT.650</span>
+          <i class="bx bx-shopping-bag add-cart"></i>
+        </div>
+        <!--Box 8-->
+        <div class="product-box">
+          <img src="img/imggg00008.jpg" alt="" class="product-img" />
+          <h2 class="product-title">雞軟骨躺著比較高</h2>
+          <span class="price">NT.1299</span>
+          <i class="bx bx-shopping-bag add-cart"></i>
+        </div>
+      </div>
+    </section>
+    <!--Link to js-->
+    <script src="js/main.js"></script>
   </body>
 </html>
